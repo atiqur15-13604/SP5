@@ -1,0 +1,50 @@
+BODY {
+    font-family: Trebuchet MS;
+    margin:20px;
+    background-color: #ffffff;
+  }
+  
+  H1 {
+    text-align: center;
+    color: #147045;
+  }
+  
+  .myRoutine {
+    width:100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .myRoutine THEAD{
+    color: #0f8e79;
+  }
+  
+  .myRoutine TBODY {
+    background-color: #AAAAFF;
+  }
+  
+  .myRoutine TD {
+    border: 1px solid rgb(38, 124, 174);
+    padding: 6px;
+    text-align: center;
+  }
+  .myRoutine TBODY TR TD:first-child {
+    background-color: #639ddf;
+    font-weight: bold;
+  }
+  
+  .break, .lunch {
+    background-color: #f6cf77 !important;
+    font-style: italic;
+  }
+  
+  .subject {
+    font-size: 12pt;
+    margin-bottom:4px;
+  }
+  
+  .room {
+    font-size: 10pt;
+    font-style: italic;
+  }
+  
